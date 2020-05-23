@@ -4,7 +4,7 @@ file_path
 
 def read_file(path):
 
-  file=open(file_path,"r")
+  file=open(path,"r")
   sentence= file.readline()
   file.close()
   return sentence
